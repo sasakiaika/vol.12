@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Shippori Mincho", serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.2;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.page-header,
+.page-hero,
+.page-content,
+.page-footer {
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+.page-header_inner,
+.page-content_inner{
+    box-sizing: content-box;
+}
+.page-header{
+    border-top: solid 4px #7f9916;
+}
+.page-header_inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-footer .logo{
+    width: 256px;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sns-list_item{
+    width: 24px;
+}
+.sns-list_item:not(:first-child){
+    margin-left: 16px;
+}
+.page-header_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global-nav > .sns-list {
+    margin-left: 64px;
+}
+.global-nav > .link-botton {
+    margin-left: 64px;
+}
+.link-botton{
+    display: table;
+    width: 140px;
+    
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.page-footer{
+    margin-top: 120px;
+}
+.col-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 954px;
+    margin: 81px auto 73px;
+    padding: auto;
+}
+.col-list{
+    max-width: 30%;
+    margin-bottom: 16px;
+    padding: auto ;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 43px 0 auto auto;
+}
+h3{
+    text-align: center;
+}
+.col-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 1000px;
+    margin: 24px auto 0 auto;
+    padding: 24px 24px 8px 24px;
+}
+.col-list2{
+    max-width: 48.2%;
+    margin-bottom: 16px;
+    padding: 33px auto 88px ;
+}
+.col-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 1081px;
+    margin: 81px auto 73px;
+    padding: auto;
+}
+.col-list3{
+    max-width: 32%;
+    margin-bottom: 16px;
+    padding: auto ;
+}
+.col-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 680px;
+    margin: 81px auto 73px;
+    padding: 16px auto;
+}
+.col-list4{
+    max-height: 500px;
+    margin-bottom: 16px;
+    padding: 24px 24px 8px 24px;
+}
+.kyaku{
+    width: 94px;
+    height: 94px;
+}
+.right{
+    margin: 0 0 0 auto;
+}
+.M{
+    justify-content: center;
+    margin: auto;
+     
+    width: 1082px;
+    height: 272px;
+    padding-bottom: 44px;
+}
+.S{
+    justify-content: space-between;
+    margin: auto;
+     
+    width: 1084px;
+    height: 306px;
+    padding-bottom: 130px;
+}
